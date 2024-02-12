@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+body{
+    background-color:  hsl(47, 88%, 63%);
+}
+#CardM{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CardE{
+    margin: 40px 0 30px 0;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 7px 7px 0px hsl(0, 0%, 7%);
+    border: 1px solid hsl(0, 0%, 7%);
+}
+.CardE .imgbody{
+    width: 100%;
+    border-radius: 10px;
+}
+.Word{
+    font-size: 15px;
+    font-weight: 800;
+    width: fit-content;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+    color:hsl(0, 0%, 7%) ;
+    padding: 5px 10px 5px 10px;
+    background-color: hsl(47, 88%, 63%);
+}
+.Word2{
+    font-size: 14px;
+    color: hsl(0, 0%, 7%);
+}
+.Word3{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: hsl(0, 0%, 7%);
+}
+.word4{
+    width: 100%;
+    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+}
+.info{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+.info img{
+    margin-bottom: 10px;
+    width: 15%;
+}
+.info p{
+    font-weight: 800;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+@media  (max-width : 1000px ) {
+    .CardE{
+        width: 50%;
+    }
+}
+
+@media  (max-width : 500px ) {
+    .CardE{
+        width: 90%;
+    }
+}
